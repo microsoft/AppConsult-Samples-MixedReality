@@ -1,0 +1,37 @@
+﻿{
+    "@odata.context ": "https: //graph.microsoft.com/v1.0/$metadata#drives",
+    "value": [{
+        "createdBy": {
+            "user": {
+                "displayName": "System Account"
+            }
+        },
+        "createdDateTime": "2015-11-11T13:24:43Z",
+        "description": "",
+        "id": "b!UB9GgPLiZEq7yagk4-NsTtwFrM3q7W5EpQWT5DQ3HJ6TcSmLT_UBR6XyxB7_LTCf",
+        "lastModifiedBy": {
+            "user": {
+                "id": "2178d7da-8d1b-4651-900d-f39d34e6be80",
+                "displayName": "Marc Plogas"
+            }
+        },
+        "lastModifiedDateTime": "2018-02-26T10:10:05Z",
+        "name": "OneDrive",
+        "webUrl": "https://microsoft-my.sharepoint.com/personal/maplog_microsoft_com/Documents",
+        "driveType": "business",
+        "owner": {
+            "user": {
+                "email": "Marc.Plogas@microsoft.com",
+                "id": "2178d7da-8d1b-4651-900d-f39d34e6be80",
+                "displayName": "Marc Plogas"
+            }
+        },
+        "quota": {
+            "deleted": 78120585,
+            "remaining": 5496619761127,
+            "state": "normal",
+            "total": 5497558138880,
+            "used": 769355225
+        }
+    }]
+}
