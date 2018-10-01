@@ -553,11 +553,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: CallRemoteAssistFromYourHoloLensAppMinimal
   metroPackageVersion: 
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 809ab7492376d501
   metroApplicationDescription: CallRemoteAssistFromYourHoloLensAppMinimal
   wsaImages: {}
   metroTileShortName: 
@@ -631,7 +631,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 
   projectName: 
   organizationId: 
