@@ -1,13 +1,9 @@
-# A sample code 📄 ready to use
-
-[CallRemoteAssistMinimal](CallRemoteAssistMinimal)
+# [CallRemoteAssistMinimal](CallRemoteAssistMinimal) = Minimal sample code 📄 ready to use
 
 If you look for a minimal code for HoloLens, we can just handle the AirTap to initiate the Remote Assist call.
 
 
-# A more interesting sample 📦 with a tagalong billboard following the user gaze 
-
-[CallRemoteAssistFromYourHoloLensApp](CallRemoteAssistFromYourHoloLensApp)
+# [CallRemoteAssistFromYourHoloLensApp](CallRemoteAssistFromYourHoloLensApp) = Sample 📦 with a Tagalong billboard following the user gaze 
 
 The sample provide you a Holographic button that is always
 
