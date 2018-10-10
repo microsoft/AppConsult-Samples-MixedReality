@@ -14,4 +14,4 @@ The sample provide you a Holographic button that is always
 
 The purpose of this sample is to provide you an out of the box tagalong billboard for you apps 🎁!
 
-<div class="gfyitem" data-id="PortlyPeriodicBaleenwhale"></div><p> <a href="https://gfycat.com/gifs/detail/PortlyPeriodicBaleenwhale">via Gfycat</a></p>
+<div style='position:relative; padding-bottom:56.25%'><iframe src='https://gfycat.com/ifr/PortlyPeriodicBaleenwhale' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> <a href="https://gfycat.com/gifs/detail/PortlyPeriodicBaleenwhale">via Gfycat</a></p>
