@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.XR.WSA.Input;
@@ -11,7 +9,7 @@ public class Tap : MonoBehaviour
     private GestureRecognizer recognizer;
 
     // Use this for initialization
-    void Start()
+    async void Start()
     {
         recognizer = new GestureRecognizer();
         recognizer.SetRecognizableGestures(GestureSettings.Tap);
@@ -21,17 +19,23 @@ public class Tap : MonoBehaviour
 
     private async void GestureRecognizer_Tapped(TappedEventArgs obj)
     {
+#if ENABLE_WINMD_SUPPORT        
         string uriToLaunch = @"ms-voip-video:?contactids=bf538576-xxxx-yyyy-zzzz-1d548b9e7010";
         Debug.Log("LaunchUriAsync: " + uriToLaunch);
 
-        var uri = new Uri(uriToLaunch);
-        await LaunchURI(uri);
+        Uri uri = new Uri(uriToLaunch);
+        await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+        {
+            // Work done on the UI thread
+            LaunchURI(uri).ConfigureAwait(false).GetAwaiter().GetResult();
+        });
+#endif
     }
 
 
     private async Task LaunchURI(System.Uri uri)
     {
-    #if ENABLE_WINMD_SUPPORT
+#if ENABLE_WINMD_SUPPORT
         // Launch the URI
         try
         {
@@ -50,14 +54,6 @@ public class Tap : MonoBehaviour
         {
             Debug.Log(ex.Message);
         }
-    #endif
-    }
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-
+#endif
     }
 }
