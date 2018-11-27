@@ -13,7 +13,8 @@
 # file on crash reports
 sysinfo.txt
 # Unity3D generated meta files
-*.meta
+*.pidb.meta
+*.pdb.meta
 
 ###
 # VS/MD solution and project files
@@ -38,6 +39,5 @@ sysinfo.txt
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
