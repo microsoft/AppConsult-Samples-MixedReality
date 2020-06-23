@@ -1,6 +1,6 @@
 # Description
 
-This repository contains Mixed Reality samples provided by the Windows AppConsult team. These samples are often referenced in our [blog](https://blogs.msdn.microsoft.com/appconsult/tag/windows-mixed-reality/)
+This repository contains Mixed Reality samples provided by the AppConsult team. These samples are often referenced in our [blog](https://blogs.msdn.microsoft.com/appconsult/tag/windows-mixed-reality/)
 
 # Contributing
 
